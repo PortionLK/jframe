@@ -21,6 +21,6 @@
 	]
   },
   "config": {
-        "preferred-install": "dist"
+        "preferred-install": "dev"
   }
 }
