@@ -3,7 +3,6 @@
   "version": 1.0.1,
   "description": "PHP Framework for web developers using eloquent ORM.",
   "keywords": ["php framework", "jframe", "Janaka", "jcodesdotme", "jcodes.me"],
-  "minimum-stability": "stable",
   "authors": [
 	{
             "name": "Janaka R Rajapaksha",
@@ -12,6 +11,8 @@
   ],
   "license": "MIT",
   "type": "project",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
   "require": {
 	"illuminate/database": "*",
 	"phpmailer/phpmailer": "*"
@@ -22,6 +23,6 @@
 	]
   },
   "config": {
-        "preferred-install": "dist"
+        "preferred-install": "stable"
   }
 }
