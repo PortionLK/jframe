@@ -1,6 +1,6 @@
 {
   "name": "jcodesdotme/jframe",
-  "version": 1.0.1
+  "version": 1.0.1,
   "description": "PHP Framework for web developers using eloquent ORM.",
   "keywords": ["php framework", "jframe", "Janaka", "jcodesdotme", "jcodes.me"],
   "authors": [
