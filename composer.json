@@ -18,5 +18,8 @@
 	"classmap": [
 	    "system/classes"
 	]
+  },
+  "config": {
+        "preferred-install": "stable"
   }
 }
