@@ -1,22 +1,22 @@
 {
   "name": "jcodesdotme/jframe",
-	"description": "PHP Framework for web developers using eloquent ORM.",
-	"keywords": ["php framework", "jframe", "Janaka", "jcodesdotme", "jcodes.me"],
-	"authors": [
-        {
+  "description": "PHP Framework for web developers using eloquent ORM.",
+  "keywords": ["php framework", "jframe", "Janaka", "jcodesdotme", "jcodes.me"],
+  "authors": [
+	{
             "name": "Janaka R Rajapaksha",
             "email": "janaka@jcodes.me"
         }
-    ],
-	"license": "MIT",
-	"type": "project",
-	"require": {
-        "illuminate/database": "*",
-		    "phpmailer/phpmailer": "*"
-    },
-	"autoload": {
-		"classmap": [
-			"system/classes"
-		]
-	}
+  ],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+	"illuminate/database": "*",
+	"phpmailer/phpmailer": "*"
+  },
+  "autoload": {
+	"classmap": [
+	    "system/classes"
+	]
+  }
 }
