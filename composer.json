@@ -1,28 +1,30 @@
 {
   "name": "jcodesdotme/jframe",
-  "version": 0.0.0,
   "description": "PHP Framework for web developers using eloquent ORM.",
   "keywords": ["php framework", "jframe", "Janaka", "jcodesdotme", "jcodes.me"],
+  "homepage": "http://jcodes.me",
+  "license": "MIT",
   "authors": [
 	{
             "name": "Janaka R Rajapaksha",
             "email": "janaka@jcodes.me"
         }
   ],
-  "license": "MIT",
-  "type": "project",
-  "minimum-stability": "stable",
-  "prefer-stable": true,
+  "support": {
+	"email": "janaka@jcodes.me"
+  },
   "require": {
-	"illuminate/database": "*",
+        "illuminate/database": "*",
 	"phpmailer/phpmailer": "*"
   },
+  "type": "project",
+  "minimum-stability": "dev",
   "autoload": {
 	"classmap": [
-	    "system/classes"
+	    "app/classes"
 	]
   },
   "config": {
-        "preferred-install": "stable"
+        "preferred-install": "dist"
   }
 }
